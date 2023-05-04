@@ -1,0 +1,621 @@
+body{
+    margin: 0;
+    background: no-repeat url(/img/2.png);
+    background-position: top;
+    
+}
+
+.main{
+   
+}
+
+.header{
+    
+    
+    height: 60px;
+    margin-top: 20px;
+}
+
+
+.container{
+    
+    max-width: 620px;
+    margin: 0px auto;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.link__button{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.button{
+    display: flex;
+    width: 180px;
+    height: 40px;
+    background: linear-gradient(87.23deg, rgba(128, 26, 179, 0) -91.42%, #4C4CFF 99.79%);
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.title{
+    color: #fff;
+    font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 43px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 22px 0;
+}
+
+.ships{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 10px 10px;
+}
+
+
+.ship{
+    border: 1px solid #fff;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.ship2{
+    border: 1px solid #fff;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.img__ships2{
+    width: 200px;
+    height: 150px;
+}
+
+.img__ships3{
+    width: 200px;
+    height: 150px;
+}
+
+.ship3{
+    border: 1px solid #fff;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.img__ships1{
+    width: 200px;
+    height: 150px;
+}
+
+.price__old{
+    display: flex;
+    text-decoration-line: line-through;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D9D9D9;
+    align-items: center;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    margin: 10px 0 60px 10px;
+    justify-content: center;
+    position: relative;
+    left: 2px;
+    bottom: 3px;
+}
+
+
+.name__ship{
+    margin: 0 10px;
+    width: 180px;
+    height: 60px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    color: #131316;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    bottom: 4px;
+}
+
+
+.price__current{
+    display: flex;
+    width: 90px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    margin: 10px 10px 60px;
+    position: relative;
+    bottom: 4px;
+    right: 2px;
+}
+
+
+.price{
+    display: flex;
+    height: 33px;
+}
+
+
+.order{
+    display: flex;
+    width: 180px;
+    height: 40px;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+    align-items: center;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background: linear-gradient(87.23deg, rgba(128, 26, 179, 0) -91.42%, #4C4CFF 99.79%);
+    color: #fff;
+    border-radius: 4px;
+    position: relative;
+    top: 3px;
+    right: 1px;
+}
+
+.container-2{
+    max-width: 620px;
+    margin: 44px auto;
+    
+}
+
+
+
+.price__current3{
+    display: flex;
+    width: 90px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    margin: 10px 10px 60px;
+    position: relative;
+    bottom: 4px;
+    right: 2px;
+    
+}
+
+.price2{
+    display: flex;
+    height: 33px;
+    justify-content: center;
+}
+
+
+/*--------------------MAIN SHIPS 2 ------------------- */
+
+.shipsbox2{
+    margin-top: 11px;
+    display: grid;
+    grid-template-columns: 305px 305px;
+    gap: 10px;
+}
+
+.ships1{
+    height: 340px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.ships2{
+    height: 340px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.img__shipsbox1{
+    height: 180px;
+    width: 305;
+}
+
+.name__ship1{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    color: #131316;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    width: 285px;
+    height: 60px;
+    bottom: 18px;
+    left: 7px;
+}
+
+.price__current4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+}
+
+.order2{
+    display: flex;
+    width: 285px;
+    height: 40px;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+    align-items: center;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background: linear-gradient(87.23deg, rgba(128, 26, 179, 0) -91.42%, #4C4CFF 99.79%);
+    color: #fff;
+    border-radius: 4px;
+    position: relative;
+    bottom: 27px;
+}
+
+
+/* --------------------------------- SHIPDAY ------------------------------*/
+
+.title__shipday{
+    display: flex;
+color: #fff;
+width: 620px;
+height: 50px;
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 43px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+position: relative;
+top: 52px;
+right: 2px;
+}
+
+
+.container__promo{
+    display: flex;
+    width: 620px;
+    height: 470px;
+    background: #fff;
+    top: 71px;
+    position: relative;
+    border-radius: 4px;
+}
+
+
+.promo__ship{
+    width: 305px;
+    height: 305px;
+}
+
+.title_promo{
+    display: flex;
+    font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+display: flex;
+position: absolute;
+margin-top: 43px;
+height: 30px;
+display: flex;
+}
+
+
+/*-------------------------------*/
+
+
+.icons{
+   position: absolute;
+    width: 172px;
+    height: 28px;
+    display: flex;
+}
+
+
+.promo__description{
+    font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+display: flex;
+color: #131316;
+height: 30px;
+position: absolute;
+margin-top: 72px;
+}
+
+.img__price2{
+    display: flex;
+    position: absolute;
+    margin-top: 123px;
+}
+
+
+.sale{
+    display: flex;
+    position: absolute;
+    margin-top: 60px;
+}
+
+.right__container{
+    display: flex;
+    width:295px;
+    height: 247px;
+    position: relative;
+    margin: 30px 10px 0 10px;
+}
+
+.sales{
+    margin-top: 160px;
+    display: grid;
+    grid-template-columns: 180px 60px;
+    grid-template-rows: 30px 30px 30px;
+    column-gap: 30px;
+}
+
+.sale1{
+    font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+}
+
+
+.sale__pr{
+    bottom: 4px;
+    position: relative;
+    font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+}
+
+
+.sale__ec{
+    bottom: 9px;
+    position: relative;
+    font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+}
+
+
+.sale200{
+    position: relative;
+    top: 7px;
+    left: 2px;
+    font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-align: right;
+}
+
+.sale600{
+    position: relative;
+    top: 2px;
+    left: 2px;
+    font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-align: right;
+}
+
+.sale800{
+    position: relative;
+    bottom: 3px;
+    left: 1px;
+    font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-align: right;
+color: #FF0000;
+}
+
+
+/*----------------------------------------------*/
+
+.input_promocode{
+    border-style:dotted;
+    border-radius: 4px;
+    width: 276px;
+    height: 56px;
+    position: absolute;
+    display: flex;
+    bottom: 104px;
+    right: 168.5px;
+    text-align: center;
+    outline: none;
+    font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+letter-spacing: 0.06em;
+}
+
+
+.down__button{
+    display: flex;
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background: linear-gradient(87.23deg, rgba(128, 26, 179, 0) -91.42%, #4C4CFF 99.79%);
+    color: #fff;
+    bottom: 35px;
+    left: 171px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+letter-spacing: 0.06em;
+
+}
+
+
+/*-------------------FOOTER---------------------*/
+
+.footer{
+    
+    display: flex;
+    margin: 130px auto 0;
+    width: 620px;
+    height: 194px;
+}
+
+
+.footer__title{
+    display: flex;
+    color: #fff;
+    margin: 0 auto;
+    font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+}
+
+
+.footer_icons{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 154px;
+    left: 9px;
+}
+
+.icon{
+    margin-right: 20px;
+    
+}
+
+.contacts{
+    color: #fff;
+    position: relative;
+    margin: 0;
+    bottom: 122px;
+    left: 613px;
+}
+
+.email{
+    color: #fff;
+}
+
+.contact{
+    font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+color: rgba(255, 255, 255, 0.5);
+position: relative;
+}
+
+.number{
+    margin-top: 3px;
+    font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+}
+
+.email{
+    font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+text-decoration-line: underline;
+position: relative;
+bottom: 166px;
+}
+
+
+.logo2{
+    position: relative;
+    bottom: 162px;
+    left: 947px;
+}
